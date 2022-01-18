@@ -7,11 +7,18 @@
 ### Description
 This script reads US bikeshare data (.csv) by city and provides simple statistics for you.
 
-Data is filtered by month or weekday.
+Data can be filtered by month or weekday.
+
+Provides statistics on:
+  - the most frequent times of travel
+  - the most popular stations and trip
+  - the total and average trip duration
+  - bikeshare users type, gender and birth year
 
 ### Prerequisites
 Python3
 Pandas
+Numpy
 
 ### Files used
 City data:
