@@ -1,11 +1,5 @@
 """
--1/2022
-
 UDACITY bikeshare python project that let's you display statistics of US bikeshare data
-# python
-# Pandas
-# numpy
-# UI
 """
 
 import time
