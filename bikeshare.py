@@ -206,7 +206,7 @@ def time_stats(df, filter = 'daymonth'):
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*40)
     except:
-        print("Whoops couldn't print time related statistics!\n")
+        print("Couldn't print time related statistics!\n")
 
 
 def station_stats(df):
