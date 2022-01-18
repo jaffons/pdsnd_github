@@ -156,15 +156,6 @@ def load_data(city, month, wday):
         print_rows(df)
     except:
         print("Couldn't print raw data!\n")
-
-    """
-    print(df.isnull().any())
-    # We print some information about sheet
-    print('Sheet is of type:', type(df))
-    print('sheet info:', df.info())
-    print('Sheet has shape:', df.shape)
-    print('head of data:\n', df.head())
-    """
     return df, filter
 
 
