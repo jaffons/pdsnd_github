@@ -155,7 +155,7 @@ def load_data(city, month, wday):
     try:
         print_rows(df)
     except:
-        print("whoops couldn't print raw data!\n")
+        print("Couldn't print raw data!\n")
 
     """
     print(df.isnull().any())
